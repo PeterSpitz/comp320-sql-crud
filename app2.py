@@ -27,7 +27,7 @@ conn.execute("INSERT INTO users (name, age) VALUES ('Bob', '30')")
 
 conn.execute("INSERT INTO users (name, age) VALUES (?, ?)", ("Bob", "30"))
 
-
+conn.execute("DELETE FROM users")
 
 # Fetch all users to check if the data was inserted
 print("Users in the database:")
